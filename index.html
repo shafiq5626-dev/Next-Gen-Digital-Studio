@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Google Search Engine Optimization (SEO) Meta Tags -->
+    <title>NextGen Apps - Mobile App & Web Development Agency Dubai & Pakistan</title>
+    <meta name="title" content="NextGen Apps - Mobile App & Web Development Agency Dubai & Pakistan">
+    <meta name="description" content="Custom Mobile Apps (iOS & Android) & Websites for Restaurants, Cafes & Shopping Malls in Dubai (UAE) & Pakistan. 0% Commission online ordering systems with custom Admin Dashboard & Store Publishing.">
+    <meta name="keywords" content="Restaurant app development Dubai, Mall ordering app Pakistan, Online ordering website builder, Custom mobile app developer, Food delivery app developer Dubai, Shopping mall app UAE">
+    <meta name="author" content="NextGen Apps Studio">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="AE-DU">
+    <meta name="geo.placename" content="Dubai">
+
+    <!-- Open Graph / Facebook / WhatsApp Preview Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nextgenapps.github.io/">
+    <meta property="og:title" content="NextGen Apps - Custom Mobile App & Web Development Agency">
+    <meta property="og:description" content="Custom iOS, Android & Web Ordering Apps for Restaurants and Shopping Malls in Dubai & Pakistan. Zero commission ordering system!">
+    <meta property="og:image" content="https://placehold.co/1200x630/0F172A/06B6D4?text=NextGen+Apps+Agency">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nextgenapps.github.io/">
+    <meta property="twitter:title" content="NextGen Apps - Custom Mobile App & Web Development Agency">
+    <meta property="twitter:description" content="Custom iOS, Android & Web Ordering Apps for Restaurants and Shopping Malls in Dubai & Pakistan. Zero commission ordering system!">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/0F172A/06B6D4?text=NextGen+Apps+Agency">
+
+    <!-- Google Search Engine Structured Data (JSON-LD Schema Markup) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "NextGen Apps Agency",
+      "image": "https://placehold.co/1200x630/0F172A/06B6D4?text=NextGen+Apps",
+      "telephone": "+971559598421",
+      "url": "https://nextgenapps.github.io/",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://wa.me/971559598421"
+      ],
+      "areaServed": ["United Arab Emirates", "Pakistan"],
+      "description": "Professional Mobile App and Web Development for Restaurants, Cafes, Plazas, and Malls with Play Store and App Store publishing."
+    }
+    </script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#2563EB',
+                            cyan: '#06B6D4',
+                            dark: '#0F172A',
+                            card: '#1E293B',
+                            accent: '#10B981',
+                            gold: '#F59E0B'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+        }
+
+        .glow-effect {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.35);
+        }
+
+        /* Multi-color Gradient Board Animations & Accents */
+        .multi-glow-board {
+            background: linear-gradient(135deg, rgba(30,41,59,0.95) 0%, rgba(15,23,42,0.95) 100%);
+            border: 2px solid transparent;
+            background-image: linear-gradient(#1E293B, #0F172A), linear-gradient(135deg, #EC4899, #8B5CF6, #3B82F6, #10B981, #F59E0B);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.3);
+        }
+
+        .premium-logo-gradient {
+            background: linear-gradient(135deg, #FF007A 0%, #7C3AED 50%, #00F0FF 100%);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #FF7EC7 0%, #A78BFA 35%, #38BDF8 70%, #34D399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #EC4899 0%, #8B5CF6 50%, #2563EB 100%);
+        }
+
+        .card-border {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+        .card-border:hover {
+            border-color: rgba(167, 139, 250, 0.5);
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.25);
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+    <!-- Header Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- Premium Multi-color Shield Badge Logo -->
+                <div class="relative w-11 h-11 rounded-2xl premium-logo-gradient p-0.5 shadow-xl flex items-center justify-center transform hover:scale-105 transition duration-300">
+                    <div class="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center relative overflow-hidden">
+                        <i class="fa-solid fa-layer-group text-transparent bg-clip-text bg-gradient-to-tr from-pink-500 via-purple-400 to-cyan-400 text-xl font-black"></i>
+                        <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="font-extrabold text-xl tracking-tight text-white flex items-center gap-1">
+                        NextGen<span class="gradient-text">Apps</span>
+                    </span>
+                    <span class="block text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Digital Agency Studio</span>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+                <a href="#services" class="hover:text-brand-cyan transition">Services</a>
+                <a href="#pricing" class="hover:text-brand-cyan transition">Packages & Rates</a>
+                <a href="#demos" class="hover:text-brand-cyan transition">Live Demos</a>
+                <a href="#contact" class="hover:text-brand-cyan transition">Contact Us</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <a href="https://wa.me/971559598421?text=Hi!%20I%20am%20interested%20in%20your%20App%20%26%20Website%20Development%20services." target="_blank" class="px-5 py-2.5 gradient-bg text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 transition flex items-center gap-2 glow-effect">
+                <i class="fa-brands fa-whatsapp text-sm"></i>
+                <span>+971 55 959 8421</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Floating WhatsApp Action Button for Quick Lead Contact -->
+    <a href="https://wa.me/971559598421?text=Hi!%20I%20need%20a%20quote%20for%20my%20business%20app/website." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-400 text-slate-950 p-4 rounded-full shadow-2xl flex items-center justify-center text-2xl transition transform hover:scale-110 animate-bounce">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 px-6 max-w-7xl mx-auto text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+            <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/30 text-brand-cyan px-3 py-1.5 rounded-full text-xs font-semibold">
+                <i class="fa-solid fa-rocket"></i>
+                <span>High Performance Mobile Apps & Websites</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+                Grow Your Business With Custom <span class="gradient-text">Ordering Apps & Websites</span>
+            </h1>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+                We design and publish custom iOS, Android, and E-Commerce web applications for <strong>Restaurants, Cafes, and Shopping Malls</strong>. Stop paying 20-30% aggregator commissions—take full control of your sales!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                <a href="#pricing" class="px-8 py-4 gradient-bg text-white font-extrabold text-sm rounded-xl shadow-xl hover:brightness-110 transition text-center glow-effect">
+                    View Prices & Plans
+                </a>
+                <a href="https://wa.me/971559598421?text=Hi!%20I%20want%20to%20see%20a%20Live%20Demo%20of%20your%20Apps." target="_blank" class="px-8 py-4 bg-slate-800/90 border border-slate-700 text-white font-bold text-sm rounded-xl hover:bg-slate-700 transition text-center flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                    <span>Live Demo on WhatsApp</span>
+                </a>
+            </div>
+            <div class="flex items-center space-x-6 text-xs text-slate-400 pt-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Apple App Store</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Google Play Store</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> 0% Commission</span>
+            </div>
+        </div>
+
+        <!-- Right Side Visual Box -->
+        <div class="relative flex justify-center">
+            <!-- Multi-colored Board Container -->
+            <div class="w-full max-w-md multi-glow-board p-6 rounded-3xl shadow-2xl space-y-4 relative">
+                <div class="absolute -top-3 -left-3 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white text-[10px] font-black uppercase px-3 py-1 rounded-full shadow-lg tracking-wider">
+                    <i class="fa-solid fa-crown text-amber-300 mr-1"></i> Premium Live Preview
+                </div>
+                <div class="flex items-center justify-between border-b border-slate-700/80 pb-4 pt-2">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-3 h-3 rounded-full bg-pink-500 animate-pulse"></div>
+                        <div class="w-3 h-3 rounded-full bg-purple-500 animate-pulse"></div>
+                        <div class="w-3 h-3 rounded-full bg-cyan-400 animate-pulse"></div>
+                    </div>
+                    <span class="text-xs text-purple-300 font-mono font-bold flex items-center gap-1">
+                        <i class="fa-solid fa-satellite-dish text-emerald-400"></i> Admin Panel
+                    </span>
+                </div>
+                <div class="bg-slate-950/90 p-4 rounded-xl border border-purple-500/30 space-y-3 shadow-inner">
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="text-slate-400">New Order #8920</span>
+                        <span class="text-emerald-400 font-extrabold text-sm">AED 145.00</span>
+                    </div>
+                    <div class="text-sm font-bold text-white">2x Special Cheese Burger + Drinks</div>
+                    <div class="flex justify-between items-center text-[11px] text-slate-400">
+                        <span>Customer: Delivery Request</span>
+                        <span class="bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/40 text-pink-300 px-2.5 py-0.5 rounded font-bold">Preparing</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-3 text-center">
+                    <div class="bg-slate-950/80 p-3 rounded-xl border border-pink-500/30">
+                        <span class="text-[10px] text-slate-400 block font-semibold">Total Revenue</span>
+                        <span class="text-base font-black text-brand-gold">PKR 450,000+</span>
+                    </div>
+                    <div class="bg-slate-950/80 p-3 rounded-xl border border-cyan-500/30">
+                        <span class="text-[10px] text-slate-400 block font-semibold">Active Orders</span>
+                        <span class="text-base font-black text-cyan-400">18 Live</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section id="services" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black text-white">What We Build For You</h2>
+            <p class="text-slate-400 text-sm max-w-2xl mx-auto">Complete end-to-end mobile and web solutions ready to launch on official stores.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Service 1 -->
+            <div class="bg-slate-800/80 p-8 rounded-2xl card-border space-y-4">
+                <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl font-bold">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white">Restaurant Ordering Suite</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">
+                    Custom iOS & Android apps for restaurants with digital menus, instant checkout, real-time order tracking, and rider dispatch.
+                </p>
+                <ul class="text-xs text-slate-300 space-y-2 pt-2">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> iOS App Store & Play Store</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Kitchen Receipt Printing</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Online & Cash Payments</li>
+                </ul>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-slate-800/80 p-8 rounded-2xl card-border space-y-4">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+                    <i class="fa-solid fa-store"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white">Shopping Mall & Multi-Store Apps</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">
+                    Comprehensive multi-vendor ecosystem for malls and markets. Customers can order from multiple stores in a single app checkout.
+                </p>
+                <ul class="text-xs text-slate-300 space-y-2 pt-2">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Store Manager Dashboards</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Super Admin Master Control</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Inventory & Stock Alerts</li>
+                </ul>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-slate-800/80 p-8 rounded-2xl card-border space-y-4">
+                <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl font-bold">
+                    <i class="fa-solid fa-hashtag"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white">Web & Social Media Setup</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">
+                    We create official Instagram & Facebook business pages, high-converting launch banners, and fast marketing websites.
+                </p>
+                <ul class="text-xs text-slate-300 space-y-2 pt-2">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Instagram & Facebook Setup</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> High-Speed Website Hosting</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Brand Launch Graphics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages (PKR & AED) -->
+    <section id="pricing" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-10">
+            <h2 class="text-3xl font-black text-white">Transparent Pricing & Rates</h2>
+            <p class="text-slate-400 text-sm">Choose your market to see fixed packages for Pakistan and Dubai (UAE).</p>
+
+            <!-- Country Currency Toggle -->
+            <div class="inline-flex bg-slate-900 p-1.5 rounded-xl border border-slate-700 mt-4">
+                <button onclick="toggleCurrency('PKR')" id="btn-pkr" class="px-6 py-2 rounded-lg font-bold text-xs bg-brand-blue text-white transition">🇵🇰 Pakistan (PKR)</button>
+                <button onclick="toggleCurrency('AED')" id="btn-aed" class="px-6 py-2 rounded-lg font-bold text-xs text-slate-400 hover:text-white transition">🇦🇪 Dubai UAE (AED)</button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            <!-- Package 1: Restaurant -->
+            <div class="multi-glow-board p-8 rounded-3xl relative flex flex-col justify-between space-y-6 shadow-2xl">
+                <span class="absolute -top-3.5 right-6 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white text-[10px] font-extrabold uppercase px-3.5 py-1 rounded-full shadow-lg">Most Popular</span>
+                <div>
+                    <h3 class="text-2xl font-black text-white">Restaurant App & Web Suite</h3>
+                    <p class="text-xs text-slate-400 mt-1">Ideal for restaurants, cafes, and food delivery startups.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-700">
+                        <span class="text-3xl sm:text-4xl font-black text-brand-gold price-pkr">PKR 150,000 - 300,000</span>
+                        <span class="text-3xl sm:text-4xl font-black text-brand-gold price-aed hidden">AED 8,000 - 15,000</span>
+                        <span class="text-xs text-slate-400 block mt-1">One-time development fee</span>
+                    </div>
+
+                    <ul class="text-xs text-slate-300 space-y-3 mt-6">
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> iOS & Android Customer Apps</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Web Ordering Website</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Admin Panel for Order Acceptance</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Payment Gateway & COD</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Instagram/Facebook Page Branding</li>
+                    </ul>
+                </div>
+                <a href="#contact" class="w-full py-3.5 gradient-bg text-white font-extrabold text-xs rounded-xl hover:brightness-110 transition text-center shadow-lg">Order Restaurant Package</a>
+            </div>
+
+            <!-- Package 2: Mall Marketplace -->
+            <div class="bg-slate-800/90 border border-slate-700 hover:border-purple-500/50 p-8 rounded-3xl flex flex-col justify-between space-y-6 shadow-2xl transition duration-300">
+                <div>
+                    <h3 class="text-2xl font-black text-white">Mall & Marketplace Suite</h3>
+                    <p class="text-xs text-slate-400 mt-1">For commercial plazas, shopping malls, and multi-vendor hubs.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-700">
+                        <span class="text-3xl sm:text-4xl font-black text-cyan-400 price-pkr">PKR 400,000 - 700,000</span>
+                        <span class="text-3xl sm:text-4xl font-black text-cyan-400 price-aed hidden">AED 20,000 - 35,000</span>
+                        <span class="text-xs text-slate-400 block mt-1">One-time development fee</span>
+                    </div>
+
+                    <ul class="text-xs text-slate-300 space-y-3 mt-6">
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> iOS & Android Marketplace Apps</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Individual Vendor Store Logins</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Super Admin Master Panel</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Rider Dispatch Tracking</li>
+                        <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-emerald-400"></i> Full Social Media Marketing Kit</li>
+                    </ul>
+                </div>
+                <a href="#contact" class="w-full py-3.5 bg-slate-700 hover:bg-slate-600 text-white font-extrabold text-xs rounded-xl transition text-center">Order Marketplace Package</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Live Demo Request Section -->
+    <section id="demos" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-800 text-center">
+        <div class="bg-gradient-to-r from-pink-900/30 via-purple-900/40 to-cyan-900/30 border border-purple-500/40 p-10 rounded-3xl space-y-6 shadow-2xl">
+            <h2 class="text-3xl font-black text-white">Want To Test A Live Demo?</h2>
+            <p class="text-slate-300 text-xs sm:text-sm max-w-xl mx-auto">
+                We will send you live test login links for the **Customer Web Ordering App**, **Admin Dashboard**, and **Delivery App** directly on WhatsApp!
+            </p>
+            <a href="https://wa.me/971559598421?text=Hi!%20I%20want%20to%20test%20a%20live%20demo%20of%20your%20Restaurant/Mall%20Ordering%20App." target="_blank" class="inline-flex items-center gap-3 px-8 py-4 bg-emerald-500 text-slate-950 font-black text-sm rounded-xl shadow-xl hover:bg-emerald-400 transition transform hover:scale-105">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Chat on WhatsApp (+971 55 959 8421)</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact & Lead Form -->
+    <section id="contact" class="py-16 px-6 max-w-4xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-10">
+            <h2 class="text-3xl font-black text-white">Get A Free Consultation</h2>
+            <p class="text-slate-400 text-sm">Send your requirements and we will contact you immediately on WhatsApp.</p>
+            <p class="text-emerald-400 font-bold text-xs flex items-center justify-center gap-1.5"><i class="fa-brands fa-whatsapp"></i> Direct WhatsApp: +971 55 959 8421</p>
+        </div>
+
+        <form onsubmit="sendWhatsAppLead(event)" class="bg-slate-800/80 p-8 rounded-3xl border border-slate-700 space-y-4 shadow-2xl backdrop-blur-sm">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Your Name</label>
+                    <input type="text" id="lead-name" required placeholder="e.g. Ali Khan" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-brand-cyan">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Business / Brand Name</label>
+                    <input type="text" id="lead-brand" required placeholder="e.g. Royal Restaurant / Grand Mall" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-brand-cyan">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Select Service Required</label>
+                    <select id="lead-service" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-brand-cyan">
+                        <option value="Restaurant Online Ordering App">Restaurant Online Ordering App</option>
+                        <option value="Shopping Mall / Multi-Vendor App">Shopping Mall / Multi-Vendor App</option>
+                        <option value="Website & Social Media Setup">Website & Social Media Setup</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Location / Country</label>
+                    <select id="lead-location" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-brand-cyan">
+                        <option value="Dubai / UAE">Dubai / UAE</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Other International">Other International</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Additional Details / Questions</label>
+                <textarea id="lead-msg" rows="3" placeholder="Tell us about your project requirements..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-brand-cyan"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 gradient-bg text-white font-black text-sm rounded-xl hover:brightness-110 transition flex items-center justify-center space-x-2 glow-effect">
+                <i class="fa-brands fa-whatsapp text-xl"></i>
+                <span>Submit Requirement via WhatsApp</span>
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-8 px-6 text-center text-xs text-slate-500 space-y-2">
+        <p>© 2026 NextGen Apps Agency. All rights reserved.</p>
+        <p class="text-slate-400">Official WhatsApp Support: <a href="https://wa.me/971559598421" class="text-emerald-400 font-bold hover:underline">+971 55 959 8421</a></p>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script>
+        function toggleCurrency(curr) {
+            const pkrPrices = document.querySelectorAll('.price-pkr');
+            const aedPrices = document.querySelectorAll('.price-aed');
+            const btnPkr = document.getElementById('btn-pkr');
+            const btnAed = document.getElementById('btn-aed');
+
+            if (curr === 'PKR') {
+                pkrPrices.forEach(el => el.classList.remove('hidden'));
+                aedPrices.forEach(el => el.classList.add('hidden'));
+
+                btnPkr.className = "px-6 py-2 rounded-lg font-bold text-xs bg-brand-blue text-white transition";
+                btnAed.className = "px-6 py-2 rounded-lg font-bold text-xs text-slate-400 hover:text-white transition";
+            } else {
+                aedPrices.forEach(el => el.classList.remove('hidden'));
+                pkrPrices.forEach(el => el.classList.add('hidden'));
+
+                btnAed.className = "px-6 py-2 rounded-lg font-bold text-xs bg-brand-blue text-white transition";
+                btnPkr.className = "px-6 py-2 rounded-lg font-bold text-xs text-slate-400 hover:text-white transition";
+            }
+        }
+
+        function sendWhatsAppLead(e) {
+            e.preventDefault();
+            const name = document.getElementById('lead-name').value;
+            const brand = document.getElementById('lead-brand').value;
+            const service = document.getElementById('lead-service').value;
+            const location = document.getElementById('lead-location').value;
+            const msg = document.getElementById('lead-msg').value;
+
+            const text = `Hi! I want a custom solution for my business:\n\n👤 Name: ${name}\n🏢 Brand: ${brand}\n📦 Service: ${service}\n📍 Location: ${location}\n📝 Notes: ${msg}`;
+            
+            // Direct redirection to WhatsApp phone number +971559598421
+            const targetPhone = "971559598421";
+            window.open(`https://wa.me/${targetPhone}?text=${encodeURIComponent(text)}`, '_blank');
+        }
+    </script>
+</body>
+</html>
