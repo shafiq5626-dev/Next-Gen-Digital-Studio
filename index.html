@@ -109,7 +109,6 @@
             box-shadow: 0 0 25px rgba(37, 99, 235, 0.35);
         }
 
-        /* Multi-color Gradient Board Animations & Accents */
         .multi-glow-board {
             background: linear-gradient(135deg, rgba(30,41,59,0.95) 0%, rgba(15,23,42,0.95) 100%);
             border: 2px solid transparent;
@@ -150,7 +149,6 @@
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-6 py-4">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <!-- Premium Multi-color Shield Badge Logo -->
                 <div class="relative w-11 h-11 rounded-2xl premium-logo-gradient p-0.5 shadow-xl flex items-center justify-center transform hover:scale-105 transition duration-300">
                     <div class="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center relative overflow-hidden">
                         <i class="fa-solid fa-layer-group text-transparent bg-clip-text bg-gradient-to-tr from-pink-500 via-purple-400 to-cyan-400 text-xl font-black"></i>
@@ -169,11 +167,13 @@
             </div>
 
             <!-- Navigation Links -->
-            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-300">
+                <a href="#portfolio" class="hover:text-brand-cyan transition">Portfolio</a>
                 <a href="#services" class="hover:text-brand-cyan transition">Services</a>
-                <a href="#pricing" class="hover:text-brand-cyan transition">Packages & Rates</a>
-                <a href="#demos" class="hover:text-brand-cyan transition">Live Demos</a>
-                <a href="#contact" class="hover:text-brand-cyan transition">Contact Us</a>
+                <a href="#process" class="hover:text-brand-cyan transition">How It Works</a>
+                <a href="#pricing" class="hover:text-brand-cyan transition">Pricing</a>
+                <a href="#testimonials" class="hover:text-brand-cyan transition">Reviews</a>
+                <a href="#faq" class="hover:text-brand-cyan transition">FAQ</a>
             </nav>
 
             <!-- CTA Button -->
@@ -184,7 +184,7 @@
         </div>
     </header>
 
-    <!-- Floating WhatsApp Action Button for Quick Lead Contact -->
+    <!-- Floating WhatsApp Action Button -->
     <a href="https://wa.me/971559598421?text=Hi!%20I%20need%20a%20quote%20for%20my%20business%20app/website." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-400 text-slate-950 p-4 rounded-full shadow-2xl flex items-center justify-center text-2xl transition transform hover:scale-110 animate-bounce">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
@@ -200,18 +200,18 @@
                 Grow Your Business With Custom <span class="gradient-text">Ordering Apps & Websites</span>
             </h1>
             <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
-                We design and publish custom iOS, Android, and E-Commerce web applications for <strong>Restaurants, Cafes, and Shopping Malls</strong>. Stop paying 20-30% aggregator commissions—take full control of your sales!
+                We design and publish custom iOS, Android, and E-Commerce web applications for <strong>Restaurants, Cafes, and Shopping Malls</strong> in Dubai & Pakistan. Stop paying 20-30% aggregator commissions—take full control of your sales!
             </p>
             <div class="flex flex-col sm:flex-row gap-4 pt-2">
                 <a href="#pricing" class="px-8 py-4 gradient-bg text-white font-extrabold text-sm rounded-xl shadow-xl hover:brightness-110 transition text-center glow-effect">
-                    View Prices & Plans
+                    View Prices & Packages
                 </a>
                 <a href="https://wa.me/971559598421?text=Hi!%20I%20want%20to%20see%20a%20Live%20Demo%20of%20your%20Apps." target="_blank" class="px-8 py-4 bg-slate-800/90 border border-slate-700 text-white font-bold text-sm rounded-xl hover:bg-slate-700 transition text-center flex items-center justify-center gap-2">
                     <i class="fa-brands fa-whatsapp text-emerald-400"></i>
                     <span>Live Demo on WhatsApp</span>
                 </a>
             </div>
-            <div class="flex items-center space-x-6 text-xs text-slate-400 pt-4">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-xs text-slate-400 pt-4">
                 <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Apple App Store</span>
                 <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Google Play Store</span>
                 <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> 0% Commission</span>
@@ -220,7 +220,6 @@
 
         <!-- Right Side Visual Box -->
         <div class="relative flex justify-center">
-            <!-- Multi-colored Board Container -->
             <div class="w-full max-w-md multi-glow-board p-6 rounded-3xl shadow-2xl space-y-4 relative">
                 <div class="absolute -top-3 -left-3 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white text-[10px] font-black uppercase px-3 py-1 rounded-full shadow-lg tracking-wider">
                     <i class="fa-solid fa-crown text-amber-300 mr-1"></i> Premium Live Preview
@@ -238,7 +237,7 @@
                 <div class="bg-slate-950/90 p-4 rounded-xl border border-purple-500/30 space-y-3 shadow-inner">
                     <div class="flex justify-between items-center text-xs">
                         <span class="text-slate-400">New Order #8920</span>
-                        <span class="text-emerald-400 font-extrabold text-sm">AED 145.00</span>
+                        <span class="text-emerald-400 font-extrabold text-sm">AED 145.00 / PKR 11,000</span>
                     </div>
                     <div class="text-sm font-bold text-white">2x Special Cheese Burger + Drinks</div>
                     <div class="flex justify-between items-center text-[11px] text-slate-400">
@@ -249,12 +248,107 @@
                 <div class="grid grid-cols-2 gap-3 text-center">
                     <div class="bg-slate-950/80 p-3 rounded-xl border border-pink-500/30">
                         <span class="text-[10px] text-slate-400 block font-semibold">Total Revenue</span>
-                        <span class="text-base font-black text-brand-gold">PKR 450,000+</span>
+                        <span class="text-base font-black text-brand-gold">AED 45,000+</span>
                     </div>
                     <div class="bg-slate-950/80 p-3 rounded-xl border border-cyan-500/30">
                         <span class="text-[10px] text-slate-400 block font-semibold">Active Orders</span>
                         <span class="text-base font-black text-cyan-400">18 Live</span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Bar -->
+    <section class="py-6 bg-slate-900/60 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="flex items-center justify-center gap-2 text-xs font-bold text-slate-300">
+                <i class="fa-solid fa-shield-halved text-brand-cyan text-lg"></i>
+                <span>100% Source Code Ownership</span>
+            </div>
+            <div class="flex items-center justify-center gap-2 text-xs font-bold text-slate-300">
+                <i class="fa-solid fa-store text-pink-400 text-lg"></i>
+                <span>Play & App Store Publishing</span>
+            </div>
+            <div class="flex items-center justify-center gap-2 text-xs font-bold text-slate-300">
+                <i class="fa-solid fa-headset text-emerald-400 text-lg"></i>
+                <span>Dedicated WhatsApp Support</span>
+            </div>
+            <div class="flex items-center justify-center gap-2 text-xs font-bold text-slate-300">
+                <i class="fa-solid fa-bolt text-amber-400 text-lg"></i>
+                <span>Fast 7-10 Days Delivery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Recent Work Section -->
+    <section id="portfolio" class="py-16 px-6 max-w-7xl mx-auto">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black text-white">Our Recent Project Deliveries</h2>
+            <p class="text-slate-400 text-sm max-w-2xl mx-auto">A glimpse of custom mobile apps and web portals developed for our global clients.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-slate-800/80 rounded-2xl card-border overflow-hidden flex flex-col justify-between">
+                <div class="h-48 bg-gradient-to-br from-blue-900/40 to-slate-900 p-6 flex flex-col justify-between border-b border-slate-700/50">
+                    <div class="flex justify-between items-center">
+                        <span class="bg-blue-500/20 text-blue-300 border border-blue-500/40 text-[10px] font-extrabold px-2.5 py-1 rounded-full">Food & Restaurant</span>
+                        <i class="fa-solid fa-utensils text-brand-cyan"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Royal Burger App</h4>
+                        <p class="text-xs text-slate-400">iOS & Android Customer App + Kitchen POS</p>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between text-xs text-slate-400">
+                        <span>Client Location: Dubai, UAE</span>
+                        <span class="text-emerald-400 font-bold">Active & Live</span>
+                    </div>
+                    <a href="https://wa.me/971559598421?text=Hi,%20I%20want%20to%20see%20screenshots%20of%20the%20Royal%20Burger%20App." target="_blank" class="block w-full py-2.5 bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs rounded-xl text-center transition">View Screenshots on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-slate-800/80 rounded-2xl card-border overflow-hidden flex flex-col justify-between">
+                <div class="h-48 bg-gradient-to-br from-purple-900/40 to-slate-900 p-6 flex flex-col justify-between border-b border-slate-700/50">
+                    <div class="flex justify-between items-center">
+                        <span class="bg-purple-500/20 text-purple-300 border border-purple-500/40 text-[10px] font-extrabold px-2.5 py-1 rounded-full">Shopping Plaza</span>
+                        <i class="fa-solid fa-store text-purple-400"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Grand Mall Marketplace</h4>
+                        <p class="text-xs text-slate-400">Multi-Vendor Web & Mobile Mall App</p>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between text-xs text-slate-400">
+                        <span>Client Location: Lahore, Pakistan</span>
+                        <span class="text-emerald-400 font-bold">Active & Live</span>
+                    </div>
+                    <a href="https://wa.me/971559598421?text=Hi,%20I%20want%20to%20see%20screenshots%20of%20the%20Grand%20Mall%20Marketplace." target="_blank" class="block w-full py-2.5 bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs rounded-xl text-center transition">View Screenshots on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-slate-800/80 rounded-2xl card-border overflow-hidden flex flex-col justify-between">
+                <div class="h-48 bg-gradient-to-br from-pink-900/40 to-slate-900 p-6 flex flex-col justify-between border-b border-slate-700/50">
+                    <div class="flex justify-between items-center">
+                        <span class="bg-pink-500/20 text-pink-300 border border-pink-500/40 text-[10px] font-extrabold px-2.5 py-1 rounded-full">Cafe & Bakery</span>
+                        <i class="fa-solid fa-mug-hot text-pink-400"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Cafe Milano Ordering Suite</h4>
+                        <p class="text-xs text-slate-400">Web App + Table QR Code Ordering</p>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between text-xs text-slate-400">
+                        <span>Client Location: Sharjah, UAE</span>
+                        <span class="text-emerald-400 font-bold">Active & Live</span>
+                    </div>
+                    <a href="https://wa.me/971559598421?text=Hi,%20I%20want%20to%20see%20screenshots%20of%20Cafe%20Milano." target="_blank" class="block w-full py-2.5 bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs rounded-xl text-center transition">View Screenshots on WhatsApp</a>
                 </div>
             </div>
         </div>
@@ -314,6 +408,37 @@
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> High-Speed Website Hosting</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Brand Launch Graphics</li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works / Process Section -->
+    <section id="process" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black text-white">Simple 4-Step Development Process</h2>
+            <p class="text-slate-400 text-sm max-w-2xl mx-auto">From initial consultation to store launch in record time.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60 relative space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-brand-cyan flex items-center justify-center font-black text-lg">1</div>
+                <h4 class="text-base font-bold text-white">Requirement Talk</h4>
+                <p class="text-xs text-slate-400">Discuss your business model and features via WhatsApp or Call.</p>
+            </div>
+            <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60 relative space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-black text-lg">2</div>
+                <h4 class="text-base font-bold text-white">Design & Setup</h4>
+                <p class="text-xs text-slate-400">Custom branding, logo incorporation, and menu/product uploading.</p>
+            </div>
+            <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60 relative space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-black text-lg">3</div>
+                <h4 class="text-base font-bold text-white">Live Demo & Testing</h4>
+                <p class="text-xs text-slate-400">We give you complete live test access to check orders and admin panel.</p>
+            </div>
+            <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60 relative space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-black text-lg">4</div>
+                <h4 class="text-base font-bold text-white">Store Launch</h4>
+                <p class="text-xs text-slate-400">Publishing your app on Google Play Store and Apple App Store!</p>
             </div>
         </div>
     </section>
@@ -378,6 +503,150 @@
                 <a href="#contact" class="w-full py-3.5 bg-slate-700 hover:bg-slate-600 text-white font-extrabold text-xs rounded-xl transition text-center">Order Marketplace Package</a>
             </div>
 
+        </div>
+    </section>
+
+    <!-- Client Testimonials Section (Expanded to 6 Professional English Reviews) -->
+    <section id="testimonials" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black text-white">What Our Clients Say</h2>
+            <p class="text-slate-400 text-sm max-w-2xl mx-auto">Trusted by business owners, cafe operators, and retail managers across Dubai and Pakistan[cite: 1].</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Review 1 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "NextGen Apps built a customized 0% commission ordering app for our Dubai restaurant. Now we save significantly on monthly aggregator fees. Highly recommended!"
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Tariq Mehmood</h5>
+                    <span class="text-[11px] text-slate-400">Operations Manager, Royal Cafe, Dubai</span>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "Very professional development team. They delivered our multi-vendor retail plaza app within 10 days and provided complete assistance with Google Play Store publishing."
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Usman Ghani</h5>
+                    <span class="text-[11px] text-slate-400">Director, Plaza Retail Hub, Lahore</span>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "The admin dashboard is extremely user-friendly. Order notifications arrive instantly via web alerts and WhatsApp. The best tech investment for our food startup."
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Bilal Ahmed</h5>
+                    <span class="text-[11px] text-slate-400">Owner, Burger Street, Sharjah</span>
+                </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "Our customers love the smooth iOS and Android mobile apps. Ordering food is now as easy as a few taps. Excellent support from the NextGen team!"
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Faisal Al-Mansoor</h5>
+                    <span class="text-[11px] text-slate-400">Founder, Palm Gourmet, Dubai</span>
+                </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "From website setup to social media branding and payment gateway integration, they handled everything seamlessly. Truly professional agency standards."
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Zainab Malik</h5>
+                    <span class="text-[11px] text-slate-400">Owner, Bake & Brew Cafe, Islamabad</span>
+                </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="bg-slate-800/70 p-6 rounded-2xl border border-slate-700/60 space-y-4">
+                <div class="flex text-brand-gold text-xs">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                    "Transparent pricing, no hidden commissions, and prompt communication on WhatsApp. They delivered our shopping mall app right on schedule."
+                </p>
+                <div class="pt-2 border-t border-slate-700/50">
+                    <h5 class="text-sm font-bold text-white">Kamran Akram</h5>
+                    <span class="text-[11px] text-slate-400">Manager, City Center Plaza, Karachi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (Fully in Professional English) -->
+    <section id="faq" class="py-16 px-6 max-w-4xl mx-auto border-t border-slate-800">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black text-white">Frequently Asked Questions</h2>
+            <p class="text-slate-400 text-sm">Got questions? We have got clear answers.</p>
+        </div>
+
+        <div class="space-y-4">
+            <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                <h4 class="text-sm font-bold text-white flex items-center justify-between cursor-pointer">
+                    <span>Will the app be published under my own company name on Play Store and App Store?</span>
+                    <i class="fa-solid fa-chevron-down text-brand-cyan text-xs"></i>
+                </h4>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                    Yes, absolutely! The mobile apps are published directly under your own Google Play Developer and Apple Developer accounts using your official brand name and logo.
+                </p>
+            </div>
+
+            <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                <h4 class="text-sm font-bold text-white flex items-center justify-between cursor-pointer">
+                    <span>How long does it take to develop and launch the app?</span>
+                    <i class="fa-solid fa-chevron-down text-brand-cyan text-xs"></i>
+                </h4>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                    Typically, a standard restaurant app or web ordering system is fully developed and ready for live demonstration within 7 to 10 working days.
+                </p>
+            </div>
+
+            <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                <h4 class="text-sm font-bold text-white flex items-center justify-between cursor-pointer">
+                    <span>Where do I receive customer orders?</span>
+                    <i class="fa-solid fa-chevron-down text-brand-cyan text-xs"></i>
+                </h4>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                    Orders appear instantly on your web-based admin dashboard with live audio alerts, and complete order details can also be dispatched directly to your WhatsApp.
+                </p>
+            </div>
+
+            <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                <h4 class="text-sm font-bold text-white flex items-center justify-between cursor-pointer">
+                    <span>Do I have to pay any monthly commission on my sales?</span>
+                    <i class="fa-solid fa-chevron-down text-brand-cyan text-xs"></i>
+                </h4>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                    No, not at all! This is a 0% commission system. You keep 100% of your sales revenue and profits without any third-party cuts.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -485,7 +754,6 @@
 
             const text = `Hi! I want a custom solution for my business:\n\n👤 Name: ${name}\n🏢 Brand: ${brand}\n📦 Service: ${service}\n📍 Location: ${location}\n📝 Notes: ${msg}`;
             
-            // Direct redirection to WhatsApp phone number +971559598421
             const targetPhone = "971559598421";
             window.open(`https://wa.me/${targetPhone}?text=${encodeURIComponent(text)}`, '_blank');
         }
